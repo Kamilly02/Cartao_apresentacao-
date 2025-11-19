@@ -1,0 +1,67 @@
+:root{
+    --cor-de-fundo:#EAF4F4;
+    --cor-do-texto:#000000;
+    --cor-fundo-cartao: #FFFFFF;
+    --cor-name:#2C6E49;
+    --cor-title:#4C956C;
+    --cor-linha: #8f9397;
+}
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:var(--cor-de-fundo) ;
+    color: var(--cor-do-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.card{
+    width: 400px;
+    padding: 30px;
+    border: 1px solid;
+    background-color:var(--cor-fundo-cartao) ;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+}
+
+.name{
+    font-size: 2rem;
+    color:var(--cor-name);
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.title{
+    font-size: 1rem;
+    color:var(--cor-title);
+    font-weight:300;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.divider{
+    border: none;
+    height: 1px;
+    background-color:var(--cor-linha) ;
+    margin: 0 auto 20px;
+    width: 80%;
+}
+
+.contact{
+    font-size: 1rem;
+    color: var(--cor-title);
+    margin-bottom: 10px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: var(--cor-title);
+    transition: color 0.3s;
+}
+.contact a:hover{
+    color: var( --cor-name);
+}
