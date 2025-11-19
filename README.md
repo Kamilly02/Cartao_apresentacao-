@@ -63,8 +63,7 @@ Uma página contendo apenas um cartão centralizado, com cores básicas e espaç
 ## 🚀 Como executar
 
 1. Abra o arquivo **index.html** no navegador.
-2. Edite o arquivo **style.css** livremente para ajustar espaçamentos e bordas.
-
+   
 ---
 
 ## 📚 Aprendizado principal
